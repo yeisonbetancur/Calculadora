@@ -1,0 +1,40 @@
+.boton-contenedor{
+    height: 83px;
+    display: flex;
+    flex: 1 1; /* el primer valor es el ancho y el segundo el alto con una longitud flexible en base a el contenedor y los elementos en el contenedor */
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: #010117;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 2px 2px 10px #f5c33b;
+}
+
+.operador{
+    box-shadow: 2px 2px 10px #ff6600;
+}
+
+.boton-contenedor:hover{
+    background-color: #f5c33b;
+    box-shadow: 2px 2px 10px #f5c33b;
+}
+
+.operador:hover {
+    background-color: #ff6600;
+    box-shadow: 2px 2px 10px #ff6600;
+}
+
+.boton-clear:hover {
+    background-color: #f5c33b;
+    color: #010117;
+}
+
+
+
